@@ -1,0 +1,49 @@
+body {
+    font-family:'Zen Dots' cursive;
+    background-color: darkblue;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+#main_div{
+    background-color: cyan;
+    width: 425px;
+    height: 530px;
+    border-radius: 10px;
+}
+
+
+#label1, #label2, #label3{
+    color: red;
+    font-size: 15px;
+}
+
+#webcam {
+    border: ridge chartreuse 3px;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+#wolfram_result, #MobileNet_result{
+    color: lightpink;
+    font-size: 15px;
+}
+
+#accurate_result {
+    height: 75px;
+    background-color: chartreuse;
+    text-align: center
+}
+
+#result_text, #accuracy {
+    color: mediumslateblue;
+    font-size: 20px;
+}
+
+h1{
+    color: cyan;
+}

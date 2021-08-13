@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js">
+        </script>
+    </head>
+    <body>
+        <h1>Case Study <img src="CASE STUDY.gif" id="case_study_img"></h1>
+        <hr>
+        <div id="main_div">
+            <div id="label">
+                <label id="label1">1. Test Image</label>
+            </div>
+            <div id="webcam">
+    
+            </div>
+            <table>
+                <tr>
+                    <td><label id="label2">Output On Wolfram Project - </label></td>
+                    <td><label id="wolfram_result"></label></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label id="label3">Output On MobileNet Project - </label></td>
+                    <td><label id="MobileNet_result"></label></td>
+                </tr>
+            </table>
+            <div id="accurate_result">
+                <label id="result_text">Result - </label>
+                <br>
+                <br>
+                <br>
+                <label id="accuracy"></label>
+            </div>
+        </div>
+    </body>
+</html>
